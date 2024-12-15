@@ -10,7 +10,10 @@ package dev.java10x.CadastroDeNinjas;
     e para localizar vai ser muito mais fácil
  */
 
+import jakarta.persistence.Entity;
 
+//Entity transforma uma classe em uma entidade do BD
+@Entity
 public class NinjaModel {
 
     Long id;
