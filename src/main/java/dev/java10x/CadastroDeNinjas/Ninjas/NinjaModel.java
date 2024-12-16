@@ -1,4 +1,4 @@
-package dev.java10x.CadastroDeNinjas;
+package dev.java10x.CadastroDeNinjas.Ninjas;
 
 /*
     Em uma aplicação Spring, usa-se após o nome da classe
@@ -10,7 +10,10 @@ package dev.java10x.CadastroDeNinjas;
     e para localizar vai ser muito mais fácil
  */
 
+import dev.java10x.CadastroDeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
+
+import java.util.List;
 
 //Entity transforma uma classe em uma entidade do BD
 //Table transforma uma classe em uma tabela do BD
@@ -28,6 +31,7 @@ public class NinjaModel {
     private String nome;
     private String email;
     private int idade;
+    private List<MissoesModel> missoes;
 
     public NinjaModel() {
     }
