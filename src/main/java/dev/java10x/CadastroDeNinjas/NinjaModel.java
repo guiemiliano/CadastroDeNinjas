@@ -15,6 +15,7 @@ import jakarta.persistence.*;
 //Entity transforma uma classe em uma entidade do BD
 //Table transforma uma classe em uma tabela do BD
 //@GeneratedValue(strategy = GenerationType.IDENTITY) gera um id que segue a ordem 1, 2, 3, 4 etc
+//testando gitt
 
 @Entity
 @Table(name = "tb_cadastro")
